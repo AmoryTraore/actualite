@@ -10,7 +10,7 @@ class ActualiteServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
         $this->publishes([
-            __DIR__.'/views' => resource_path('resources/views/',),
+            __DIR__.'/views' => resource_path('views/',),
         ], 'views');
 
         $this->publishes([
