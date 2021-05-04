@@ -1,11 +1,11 @@
 <?php
 
-namespace Traore\Actualite\Http\Controllers;
+namespace AmoryTraore\Actualite\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Traore\Actualite\Models\Actualite;
-use Traore\Actualite\Models\Category;
+use AmoryTraore\Actualite\Models\Actualite;
+use AmoryTraore\Actualite\Models\Category;
 
 class ActualitesController extends Controller
 {
