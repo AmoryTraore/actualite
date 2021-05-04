@@ -1,0 +1,19 @@
+{
+    "name": "traore/actualite",
+    "description": "Package de gestion des actualites",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amory",
+            "email": "amorytraore08@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Traore\\Actualite\\": "src/"
+        }
+    }
+}
