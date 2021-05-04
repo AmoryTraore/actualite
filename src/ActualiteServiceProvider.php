@@ -10,11 +10,11 @@ class ActualiteServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
         $this->publishes([
-            __DIR__.'/views' => resource_path('resources/views/amorytraore/actualite',),
+            __DIR__.'/views' => resource_path('resources/views/',),
         ], 'views');
 
         $this->publishes([
-            __DIR__.'/migrations' => database_path('database/migrations')
+            __DIR__.'/migrations' => database_path('database/migrations/')
         ], 'migrations');
     }
 
