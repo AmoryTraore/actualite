@@ -14,7 +14,7 @@ class ActualiteServiceProvider extends ServiceProvider
         ], 'views');
 
         $this->publishes([
-            __DIR__.'/migrations' => database_path('database/migrations/')
+            __DIR__.'/database/migrations' => database_path('database/migrations/')
         ], 'migrations');
     }
 
