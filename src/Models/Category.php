@@ -1,6 +1,6 @@
 <?php
 
-namespace Traore\Actualite\Models;
+namespace AmoryTraore\Actualite\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
