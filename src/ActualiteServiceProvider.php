@@ -12,6 +12,10 @@ class ActualiteServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/views' => resource_path('resources/views/traore/actualite'),
         ]);
+
+        $this->publishes([
+            __DIR__.'/migrations' => database_path('database/migrations')
+        ], 'migrations');
     }
 
     
