@@ -1,5 +1,5 @@
 <?php
-namespace Traore\Actualite;
+namespace AmoryTraore\Actualite;
 use Illuminate\Support\ServiceProvider;
 
 class ActualiteServiceProvider extends ServiceProvider
