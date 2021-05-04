@@ -1,5 +1,5 @@
 {
-    "name": "traore/actualite",
+    "name": "amorytraore/actualite",
     "description": "Package de gestion des actualites",
     "type": "library",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Traore\\Actualite\\": "src/"
+            "AmoryTraore\\Actualite\\": "src/"
         }
     }
 }

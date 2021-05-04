@@ -55,7 +55,7 @@
                 <div class="form-group">
                     <select class="form-control form-control-sm" name="category">
                         <option>Categorie actualité</option>
-                        @foreach (Traore\Actualite\Models\Category::all() as $item)  
+                        @foreach (AmoryTraore\Actualite\Models\Category::all() as $item)  
                         <option value="{{$item->id}}">{{$item->libelle}}</option>
                         @endforeach
                        
@@ -132,7 +132,7 @@
                         <div class="form-group">
                             <select class="form-control form-control-sm" name="category">
                                 <option value="{{$item->categories_id}}">{{$item->categorie->libelle}}</option>
-                                @foreach (Traore\Actualite\Models\Category::all() as $items)  
+                                @foreach (AmoryTraore\Actualite\Models\Category::all() as $items)  
                                 <option value="{{$items->id}}">{{$items->libelle}}</option>
                                 @endforeach
                             

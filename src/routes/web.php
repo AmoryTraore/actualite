@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Traore\Actualite\Http\Controllers\ActualitesController;
-use Traore\Actualite\Http\Controllers\CategoryController;
+use AmoryTraore\Actualite\Http\Controllers\ActualitesController;
+use AmoryTraore\Actualite\Http\Controllers\CategoryController;
 
 Route::get('actualite', [ActualitesController::class, 'index'])->name('actualite');
 //Route::post('actualite/add', [ActualitesController::class, 'store']);
